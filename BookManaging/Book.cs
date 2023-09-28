@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 
 namespace Lab02
 {
@@ -149,7 +148,7 @@ namespace Lab02
 
         public int Compare(object? x, object? y)
         {
-            if (x is not Book||y is not Book)
+            if (x is not Book || y is not Book)
             {
                 throw new ArgumentException();
             }
